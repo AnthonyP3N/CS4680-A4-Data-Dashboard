@@ -1,0 +1,7 @@
+streamlit>=1.40
+google-genai>=1.30
+openai>=1.40
+sqlglot>=25.0
+plotly>=5.20
+pandas>=2.2
+pytest>=8.0

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# secrets: never commit your API key
+.streamlit/secrets.toml
+
+# generated at runtime (saved conversations and workspace data live in var/)
+var/
+data/sample.db
+logs/
