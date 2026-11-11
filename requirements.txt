@@ -1,7 +1,7 @@
-streamlit>=1.40
+streamlit>=1.67      # the interface uses features added up to 1.67
 google-genai>=1.30
 openai>=1.40
-sqlglot>=25.0
+sqlglot>=30,<31      # SQL checks and masking were tested against 30.x
 plotly>=5.20
 pandas>=2.2
 pytest>=8.0
