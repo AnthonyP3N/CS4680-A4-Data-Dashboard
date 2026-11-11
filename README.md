@@ -6,7 +6,7 @@ AskData lets people who don't know SQL ask questions about a database or an uplo
 
 The agent sends the question to an LLM (Google Gemini, Groq, OpenAI or OpenRouter, whichever you have a key for), which plans a query and returns structured JSON. AskData then checks that SQL against safety rules, runs it on the database, and shows the answer as a chart, a table and a short explanation. If the user asks to change data ("cancel order 2999"), the change is dry-run and previewed, and nothing is written until the user confirms.
 
-**Live app:** https://ask-data-dashboard.streamlit.app/?u=CZSaOiYHYYQE-9LYOqVfgv2HoQsWE3cQc29KQDZpcD8 · **Demo video:** `<your YouTube URL>`
+**Live app:** https://ask-data-dashboard.streamlit.app/?u=CZSaOiYHYYQE-9LYOqVfgv2HoQsWE3cQc29KQDZpcD8 · **Demo video:** https://youtu.be/QXp6vzd67gA
 
 ---
 
